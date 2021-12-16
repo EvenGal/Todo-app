@@ -31,7 +31,7 @@ To add a new test file, simply create a file:
 ```path
 {test_file_name}.spec.js
 ```
-See Cypress documentation for writing tests: https://docs.cypress.io/guides/getting-started/writing-your-first-test
+See Cypress documentation for creating and executing tests: https://docs.cypress.io/guides/getting-started/writing-your-first-test
 
 
 
