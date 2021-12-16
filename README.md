@@ -15,6 +15,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npx cypress open`
+Opens the test framework Cypress for easy end-to-end testing of the React application.
 Install Cypress with:
 ```npm
 npm install cypress --save-dev
