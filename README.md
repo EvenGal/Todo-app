@@ -23,7 +23,10 @@ Launches the test framework Cypress. Choose a test, or create new tests in:
 ```path
 todo-app/cypress/integration/Todo-app
 ```
-and add a new test file --> {test_file_name}.spec.js.
+To add a new test file, simply create a file:
+```path
+{test_file_name}.spec.js
+```
 See Cypress documentation for writing tests: https://docs.cypress.io/guides/getting-started/writing-your-first-test
 
 
