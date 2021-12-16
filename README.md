@@ -17,8 +17,7 @@ You may also see any lint errors in the console.
 ### `npx cypress open`
 
 Launches the test framework cypress. Choose a test, or create new tests in:
-
-todo-app/cypress/integration/Todo-app and add a new test file --> {test_file_name}.spec.js.
+- todo-app/cypress/integration/Todo-app and add a new test file --> {test_file_name}.spec.js.
 See Cypress documentation for writing tests: https://docs.cypress.io/guides/getting-started/writing-your-first-test
 
 
