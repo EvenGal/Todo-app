@@ -20,10 +20,6 @@ Install Cypress with:
 ```npm
 npm install cypress --save-dev
 ```
-Launches the test framework Cypress:
-```npx
-npx cypress open
-```
 Choose a test, or create new tests in:
 ```path
 todo-app/cypress/integration/Todo-app
