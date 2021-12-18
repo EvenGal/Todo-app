@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { Button, Card, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import reportWebVitals from './reportWebVitals';
+
 
 
 function Todo({ todo, index, markTodo, removeTodo }) {
@@ -60,7 +62,6 @@ function App() {
       text: "This is another sample todo",
       isDone: false
     }
-    
   ]);
 
   const addTodo = text => {
@@ -92,11 +93,11 @@ function App() {
         <h1 className="text-center mb-4">Todo List</h1>
         <FormTodo addTodo={addTodo} resetTodos={resetTodos}/>
         <div>
-          {todos.map((todo, index) => (
+          {todos.map((todo, index, i) => (
             <Card>
               <Card.Body>
                 <Todo
-                key={index}
+                key={index + i}
                 index={index}
                 todo={todo}
                 markTodo={markTodo}
@@ -112,3 +113,4 @@ function App() {
 }
 
 export default App;
+reportWebVitals(console.log);
